@@ -150,17 +150,3 @@ footer {
     background-color: #1e3a8a;
     color: white;
 }
-
-@media (max-width: 768px) {
-    .bio-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    .hero h1 {
-        font-size: 1.5rem;
-    }
-}
