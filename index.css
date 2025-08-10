@@ -109,21 +109,17 @@ th {
     color: white;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-.contact-container {
+.kontak-container {
     display: flex;
     flex-direction: column;
 }
 
-.contact-item {
+.kontak-item {
     margin-bottom: 1rem;
 }
 
-.contact-form input,
-.contact-form textarea {
+.kontak-form input,
+.kontak-form textarea {
     width: 100%;
     padding: 0.8rem;
     margin-bottom: 1rem;
@@ -131,7 +127,7 @@ tr:nth-child(even) {
     border-radius: 4px;
 }
 
-.contact-form textarea {
+.kontak-form textarea {
     height: 120px;
 }
 
